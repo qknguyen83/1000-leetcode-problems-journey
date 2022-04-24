@@ -5,7 +5,6 @@ class Solution:
             self.helper(root.left, arr)
             self.helper(root.right, arr)
             
-            
     def preorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         arr = []
         self.helper(root, arr)

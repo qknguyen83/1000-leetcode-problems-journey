@@ -5,7 +5,6 @@ class Solution:
             self.helper(root.right, arr)
             arr.append(root.val)
             
-    
     def postorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         arr = []
         self.helper(root, arr)
